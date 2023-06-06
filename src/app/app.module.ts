@@ -10,6 +10,7 @@ import { MosaicComponent } from './mosaic/mosaic.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { AdBannerComponent } from './ad-banner/ad-banner.component';
 import { FooterComponent } from './footer/footer.component';
+import { SlideComponent } from './slide/slide.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './footer/footer.component';
     MosaicComponent,
     SidebarComponent,
     AdBannerComponent,
-    FooterComponent
+    FooterComponent,
+    SlideComponent
   ],
   imports: [
     BrowserModule,
